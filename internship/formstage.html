@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="C:\Users\Yassine\Desktop\Bootsrap\css\bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container">
+          <!-- Navbar brand -->
+          <a class="navbar-brand me-2" href="Home.html">
+            <img
+              src="logo.svg"
+              height="40"
+              alt=" Logo"
+              loading="lazy"
+              style="margin-top: -1px;"
+              
+            />
+          </a>
+      
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarButtonsExample"
+            aria-controls="navbarButtonsExample"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+      
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse " id="navbarButtonsExample">
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link" href="Home.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="internships offers.html">Internship</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Courses</a>
+              </li>
+           </ul>
+          </div>
+            <div class="d-flex collapse navbar-collapse justify-content-end" >
+              <button type="button" class="btn btn-link px-3 me-2">
+                Login
+              </button>
+              <button type="button" class="btn btn-primary me-3">
+                Sign up for free
+              </button>
+              <a
+                class="btn btn-dark px-3 "
+                href="https://github.com/"
+                role="button"
+                ><i class="fab fa-github "></i
+              ></a>
+            </div>
+          
+          <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+    <div class="container mt-5">
+        <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address:</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Phone:</label>
+                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">University:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Major:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+              </div>
+              
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Year of Study:</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Expected Graduation:</label>
+                <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="Year">
+              </div>
+              <div>
+                <label for="exampleFormControlInput1">Preferred Internship Position:</label>
+                <select class="form-control">
+                    <option>Select an option</option>
+                    <option>Software Developer</option>
+                    <option>Marketing Intern</option>
+                    <option>Data Analyst</option>
+                    <option>Business Development</option>
+                  </select>
+              </div>
+             
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Cover Letter:</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            
+            <form>
+                <div class="form-group">
+                  <label for="exampleFormControlFile1">Resume/CV (PDF Only):</label>
+                  <input type="file" class="form-control-file" id="exampleFormControlFile1" accept=".PDF">
+                </div>
+              </form>
+              <div>
+                <a id="button" class="btn btn-dark m-2" href="#" >Submit</a>
+              </div>
+          </form>
+        </div>
+    </div>
+</body>
+</html>
